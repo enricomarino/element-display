@@ -3,6 +3,8 @@
   "repo": "enricomarino/element-overlay",
   "description": "Element overlay component",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "enricomarino/element-style": "*"
+  },
   "scripts": ["index.js"]
 }
