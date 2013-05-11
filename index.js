@@ -5,6 +5,12 @@
  * @copyright 2013 Enrico Marino
  * @license MIT
  */
+ 
+/**
+ * Dependencies
+ */
+
+var Style = require('element-style');
 
 /**
  * Expose `Element`
