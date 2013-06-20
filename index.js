@@ -1,38 +1,25 @@
 /**
- * Element
- * Element overlay component
+ * element-display
+ * element display
  * 
  * @copyright 2013 Enrico Marino
  * @license MIT
  */
  
 /**
- * Dependencies
+ * Expose component
  */
 
-var Style = require('element-style');
+module.exports = function (element) {
 
-/**
- * Expose `Element`
- */
-
-module.exports = Element;
-
-/**
- * Element
- */
-
-function Element(el){
-  this.el = el;
-};
-
-/**
- * overlay
- *
- * @param {Boolean} visible visible
- * @api public
- */
-
-Element.prototype.overlay = function (visible) {
-  return this;
-};
+ /**
+  * show
+  *
+  * @param {Boolean} visible visible
+  * @api public
+  */
+ 
+  element.prototype.show = function () {
+    this.el.style.display = 'block';
+    return this;
+  };
