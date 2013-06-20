@@ -14,8 +14,9 @@ module.exports = function (element) {
 
  /**
   * show
+  * show element
   *
-  * @param {Boolean} visible visible
+  * @return {element} this for chaining
   * @api public
   */
  
@@ -23,3 +24,19 @@ module.exports = function (element) {
     this.el.style.display = 'block';
     return this;
   };
+
+ /**
+  * hide
+  * hide element
+  *
+  * @return {element} this for chaining
+  * @api public
+  */
+ 
+  element.prototype.hide = function () {
+    this.el.style.display = 'none';
+    return this;
+  };
+
+  return element;
+};
