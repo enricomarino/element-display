@@ -1,10 +1,8 @@
 {
-  "name": "element-overlay",
-  "repo": "enricomarino/element-overlay",
-  "description": "Element overlay component",
+  "name": "element-display",
+  "repo": "enricomarino/element-display",
+  "description": "display plugin for element",
   "version": "0.0.1",
-  "dependencies": {
-    "enricomarino/element-style": "*"
-  },
+  "dependencies": {},
   "scripts": ["index.js"]
 }
