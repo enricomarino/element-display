@@ -1,10 +1,10 @@
 # element-display
 
-element display
+Display, plugin for element. 
 
 ## Installation
 
-    $ component install enricomarino/element-overlay
+    $ component install enricomarino/element-display
 
 ## API
 
