@@ -1,6 +1,6 @@
-# element-overlay
+# element-display
 
-Element overlay component
+element display
 
 ## Installation
 
