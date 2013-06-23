@@ -6,6 +6,18 @@ Element overlay component
 
     $ component install enricomarino/element-overlay
 
+## API
+
+### Element#show(): Element
+
+Show this element.  
+Return this element for chaining.
+
+### Element#hide(): Element
+
+Hide this element.  
+Return this element for chaining.
+
 ## License
 
 (The MIT License)
